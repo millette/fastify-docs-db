@@ -25,7 +25,7 @@
     "url": "http://robin.millette.info"
   },
   "engines": {
-    "node": ">= 10.14.1"
+    "node": ">= 10.14.2"
   },
   "license": "AGPL-3.0",
   "devDependencies": {
