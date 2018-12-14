@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "deps": "dependency-check . && dependency-check . --unused --no-dev",
     "test": "nyc ava"
   },
@@ -29,6 +30,7 @@
   "license": "AGPL-3.0",
   "devDependencies": {
     "ava": "^1.0.0-rc.2",
+    "coveralls": "^3.0.2",
     "dependency-check": "^3.2.1",
     "fastify": "^2.0.0-rc.2",
     "got": "^9.4.0",
