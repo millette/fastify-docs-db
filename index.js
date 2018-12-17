@@ -1,5 +1,4 @@
 // npm
-const fp = require("fastify-plugin")
 const DocsDb = require("docs-db")
 
 // self
@@ -88,7 +87,4 @@ const plugin = function(fastify, opts, next) {
   next()
 }
 
-module.exports = fp(plugin, {
-  fastify: "^2.0.0",
-  name,
-})
+module.exports = plugin
