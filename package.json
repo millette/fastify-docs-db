@@ -26,7 +26,7 @@
     "url": "http://robin.millette.info"
   },
   "engines": {
-    "node": ">= 10.14.2"
+    "node": ">= 10"
   },
   "license": "AGPL-3.0",
   "devDependencies": {
@@ -41,7 +41,7 @@
     "prettier": "^1.15.3"
   },
   "dependencies": {
-    "docs-db": "0.0.4",
+    "docs-db": "0.0.5",
     "fastify-caching": "^4.0.0",
     "fastify-cors": "^0.2.0",
     "fastify-response-time": "millette/fastify-response-time#fastify-v2"
