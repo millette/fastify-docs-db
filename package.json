@@ -30,20 +30,20 @@
   },
   "license": "AGPL-3.0",
   "devDependencies": {
-    "ava": "^1.1.0",
+    "ava": "^1.2.0",
     "coveralls": "^3.0.2",
     "dependency-check": "^3.3.0",
     "fastify": "^2.0.0-rc.4",
-    "got": "^9.5.1",
+    "got": "^9.6.0",
     "husky": "^1.3.1",
-    "lint-staged": "^8.1.0",
+    "lint-staged": "^8.1.1",
     "nyc": "^13.1.0",
-    "prettier": "^1.15.3"
+    "prettier": "^1.16.2"
   },
   "dependencies": {
-    "docs-db": "0.0.5",
+    "docs-db": "0.0.6",
     "fastify-caching": "^4.0.0",
-    "fastify-cors": "^2.0.0",
+    "fastify-cors": "^2.0.1",
     "fastify-response-time": "millette/fastify-response-time#fastify-v2"
   }
 }
